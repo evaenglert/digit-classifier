@@ -19,7 +19,7 @@ learner = load_learner(path/"digit_classifier_big.pkl")
 # Create a canvas component
 canvas_result = st_canvas(
     fill_color="rgba(255, 165, 0, 0.3)",  # Fixed fill color with some opacity
-    stroke_width=3,
+    stroke_width=7,
     stroke_color='#eee',
     background_color='#000000',
     update_streamlit=True,
