@@ -7,7 +7,7 @@ import pandas as pd
 st.markdown("""# This is a header""")
 
 path = Path()
-learner = load_learner(path/"digit_classifier_big.pkl")
+learner = load_learner(path/"digit_classifier_big_2.pkl")
 
 # uploaded_file = st.file_uploader("Choose a file", type=["png", "jpg", "jpeg"])
 
